@@ -1,4 +1,4 @@
-import { getRamdom } from '../ramdom';
+import { getrandom } from '../random';
 
 const bubbleSort = (numbers: number[]): number[] => {
   for (let i = 0; i < numbers.length; i++) {
@@ -13,4 +13,4 @@ const bubbleSort = (numbers: number[]): number[] => {
   return numbers;
 };
 
-console.log(bubbleSort(getRamdom(10, 1000)));
+console.log(bubbleSort(getrandom(10, 1000)));
